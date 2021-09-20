@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> WeatherEXPRESS </title>
+
+<link rel = "stylesheet" href = "/css/styles.css">
+<link rel = "icon" href = "/img/weather.png">
+
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <p>Use this page to find out your weather</p>
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+            <a href="join.html" class="joinchat">Join WeatherCHAT</a>
+        </form>
+        <p id = "message-1"></p>
+        <p id = "message-2"></p>
+    </div>
+    
+    {{>footer}}
+
+    <script src = "/js/app.js"></script>
+</body>
+
+
+
+</html>
